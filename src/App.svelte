@@ -20,11 +20,14 @@
     whether or not that checkbox's `value` is in the `checked` array.
   -->
   <input type="checkbox" bind:group={$checked} value="one" id="one" /><label
-    for="one">one</label>
+    for="one"
+    style="display: inline-block;">one</label>
   <input type="checkbox" bind:group={$checked} value="two" id="two" /><label
-    for="two">two</label>
+    for="two"
+    style="display: inline-block;">two</label>
   <input type="checkbox" bind:group={$checked} value="three" id="three" /><label
-    for="three">three</label>
+    for="three"
+    style="display: inline-block;">three</label>
 
   <!-- The innerText of the paragraph is updated on change to the `checked` store. -->
   <p>{$checked}</p>
